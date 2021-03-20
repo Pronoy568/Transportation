@@ -1,0 +1,11 @@
+.destination{
+    text-align: center;
+    display: flex;
+    background-color: green;
+}
+@media only screen and (max-width: 600px) {
+    .destination {
+      display: inline;
+      color : green;
+    }
+  }
