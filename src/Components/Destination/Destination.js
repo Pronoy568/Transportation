@@ -3,6 +3,7 @@ import { Link, useHistory, useParams } from 'react-router-dom';
 import map from '../../images/Map.png';
 import { Button } from 'react-bootstrap';
 import './Destination.css';
+import Map from '../Map/Map';
 
 const Destination = () => {
     const {name} = useParams();
@@ -29,7 +30,7 @@ const Destination = () => {
                 </form>
             </div>
             <div>
-                <img style={{width:'80%'}} src={map} />
+                <Map></Map>
             </div>
         </div>
     );
