@@ -57,10 +57,14 @@ const Login = () => {
 
     return (
         <div  className="button">
+          <br/>
+          <br/>
             <Button onClick={ handleGoogleSignIn} variant="primary">Google Sign in</Button>
             <br/>
             <br/>
             <Button onClick={ handleFbSignIn} variant="primary">FaceBook Sign in</Button>
+            <br/>
+            <br/>
         </div>
     );
 };

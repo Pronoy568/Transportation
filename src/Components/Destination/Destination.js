@@ -18,68 +18,10 @@ const Destination = () => {
                     <input type="text" />
                     <br/>
                     <h5>Date from</h5>
-                    <select>
-                        <option>DAY</option> 
-                        <option>1</option> 
-                        <option>2</option> 
-                        <option>3</option> 
-                        <option>4</option> 
-                        <option>5</option> 
-                        <option>6</option> 
-                        <option>7</option> 
-                    </select>
-                    <select>
-                        <option>Month</option> 
-                        <option>1</option> 
-                        <option>2</option> 
-                        <option>3</option> 
-                        <option>4</option> 
-                        <option>5</option> 
-                        <option>6</option> 
-                        <option>7</option> 
-                    </select>
-                    <select>
-                        <option>YEAR</option> 
-                        <option>2015</option> 
-                        <option>2016</option> 
-                        <option>2017</option> 
-                        <option>2018</option> 
-                        <option>2019</option> 
-                        <option>2020</option> 
-                        <option>2021</option> 
-                    </select>
+                        <input type="date" name="date"/>
                     <br/>
                     <h5>Date To</h5>
-                    <select>
-                        <option>DAY</option> 
-                        <option>1</option> 
-                        <option>2</option> 
-                        <option>3</option> 
-                        <option>4</option> 
-                        <option>5</option> 
-                        <option>6</option> 
-                        <option>7</option> 
-                    </select>
-                    <select>
-                        <option>Month</option> 
-                        <option>1</option> 
-                        <option>2</option> 
-                        <option>3</option> 
-                        <option>4</option> 
-                        <option>5</option> 
-                        <option>6</option> 
-                        <option>7</option> 
-                    </select>
-                    <select>
-                        <option>YEAR</option> 
-                        <option>2015</option> 
-                        <option>2016</option> 
-                        <option>2017</option> 
-                        <option>2018</option> 
-                        <option>2019</option> 
-                        <option>2020</option> 
-                        <option>2021</option> 
-                    </select>
+                        <input type="date" name="date"/>
                     <br/>
                     <br/>
                     <br/>

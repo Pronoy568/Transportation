@@ -5,3 +5,8 @@
     margin : 90px;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .navStyle {
+      margin: 2px;
+    }
+  }

@@ -3,11 +3,6 @@ import Riders from '../Riders/Riders';
 import './Home.css';
 
 const Home = () => {
-    // const style = {
-    //     display: 'flex',
-    //     margin: '40px',
-    //     justifyContent: 'space-between',
-    // }
     const riders = [
         {
             name : 'BIKE',
